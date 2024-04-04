@@ -27,7 +27,7 @@ return (
         onClick={() => copyToClipboard("↑")}
         variant="solid"
       >
-        Copy "↑" to clipboard
+        Copy &quot;↑&quot; to clipboard
       </Button>
       {/* This component is responsible for rendering toasts */}
       <Toaster />
