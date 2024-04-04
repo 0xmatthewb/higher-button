@@ -18,7 +18,7 @@ export default function Component() {
   };
 
 return (
-  <div key="1" className="flex flex-col h-screen justify-center items-center bg-[#FDFDFD]">
+  <div key="1" className="flex flex-col justify-between min-h-screen items-center bg-[#FDFDFD]">
 
     <main className="flex flex-col items-center justify-center flex-grow">
       <h1 className="text-4xl text-black font-bold mb-8">Higher</h1>
@@ -33,7 +33,7 @@ return (
       <Toaster />
     </main>
 
-    <footer className="w-full py-4 flex items-center justify-center">
+    <footer className="w-full mt-auto py-4 flex items-center justify-center">
       <span className="text-sm text-gray-500">Built by</span>
       <a
         className="ml-1 text-[#8A63D2] hover:text-[#6e4fa8] text-sm"
