@@ -18,7 +18,7 @@ export default function Component() {
   };
 
 return (
-  <div key="1" className="flex flex-col h-screen justify-center items-center bg-[#FDFDFD]">
+  <div key="1" className="flex flex-col min-h-screen justify-center items-center bg-[#FDFDFD]">
 
     <main className="flex flex-col items-center justify-center flex-grow">
       <h1 className="text-4xl text-black font-bold mb-8">Higher</h1>
