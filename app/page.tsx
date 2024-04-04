@@ -89,6 +89,7 @@ return (
         }`}
         onTouchStart={() => setIsHovered(true)}
         onTouchEnd={() => setIsHovered(false)}
+        onTouchMove={() => setIsHovered(false)}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         onClick={() => copyToClipboard("↑")}
