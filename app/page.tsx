@@ -23,7 +23,7 @@
 //     <main className="flex flex-col items-center justify-center flex-grow">
 //       <h1 className="text-4xl text-black font-bold mb-8">Higher</h1>
 //       <Button
-//         className="bg-[#018A08] text-white py-4 px-8 text-2xl font-semibold rounded-lg shadow-md hover:bg-[#016A06] transform transition-transform duration-200 ease-in-out active:scale-95"
+        // className="bg-[#018A08] text-white py-4 px-8 text-2xl font-semibold rounded-lg shadow-md hover:bg-[#016A06] transform transition-transform duration-200 ease-in-out active:scale-95"
 //         onClick={() => copyToClipboard("↑")}
 //         variant="default"
 //       >
@@ -83,9 +83,11 @@ return (
     <main className="flex flex-col items-center justify-center flex-grow">
       <h1 className="text-4xl text-black font-bold mb-8">Higher</h1>
       <Button
+        // className="bg-[#018A08] text-white py-4 px-8 text-2xl font-semibold rounded-lg shadow-md hover:bg-[#016A06] transform transition-transform duration-200 ease-in-out active:scale-95"
         className={`bg-[#018A08] text-white py-4 px-8 text-2xl font-semibold rounded-lg shadow-md transform transition-transform duration-200 ease-in-out active:scale-95 ${
           isHovered ? "bg-[#016A06]" : ""
         }`}
+        onTouchStart={() => setIsHovered(true)}
         onTouchEnd={() => setIsHovered(false)}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
