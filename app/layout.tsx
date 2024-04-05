@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "↑ button",
-  description: "Easily copy ↑ to your clipboard.",
+  description: "Easily copy ↑ to your clipboard. Higher, together.",
 };
 
 export default function RootLayout({
