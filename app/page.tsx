@@ -13,7 +13,7 @@ export default function Component() {
   const copyToClipboard = async (text: string) => {
     try {
       await navigator.clipboard.writeText(text);
-      toast.success('↑ copied to clipboard!', {iconTheme: {primary: '#018A08', secondary: '#FFFFFF'}, duration:1200})
+      toast.success('↑ copied to clipboard!', {iconTheme: {primary: '#018A08', secondary: '#FFFFFF'}, duration:1500})
     } catch (err) {
       toast.error('Failed to copy text.');
       console.error('Failed to copy:', err);
